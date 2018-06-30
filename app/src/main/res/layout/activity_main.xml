@@ -34,18 +34,18 @@
 
     <TextView
         android:id="@+id/textView_poor"
-        android:layout_width="wrap_content"
+        android:layout_width="207dp"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
         android:layout_alignTop="@+id/textView_I_am"
-        android:layout_toRightOf="@id/textView_I_am"
-        android:layout_marginEnd="53dp"
+        android:layout_marginEnd="0dp"
         android:layout_marginLeft="8dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_toEndOf="@id/textView_I_am"
+        android:layout_toRightOf="@id/textView_I_am"
         android:text="@string/poor"
         android:textSize="40sp"
-        android:textStyle="bold"
-        android:layout_alignParentRight="true"
-        android:layout_marginRight="53dp"
-        android:layout_toEndOf="@id/textView_I_am"
-        android:layout_marginStart="8dp" />
+        android:textStyle="bold" />
 </RelativeLayout>
